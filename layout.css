@@ -1,0 +1,153 @@
+/* MENNI BURGER*/
+
+/* MOBILE */
+.slideshow {
+  width: 100%;
+  height: 15rem;
+  border-radius: 0rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 20px;
+}
+.slideshow {
+  display: flex;
+}
+.slideshow {
+  position: relative;
+  scroll-snap-type: x mandatory;
+}
+
+@media screen and (min-width: 600px) {
+  /* FORSIDA */
+
+  .menni {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    margin-left: 600px;
+  }
+  header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  /* nav ul li a {
+    /* text-decoration: none; */
+  /* }  */
+
+  /* .menni {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    margin-right: 50px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 0;
+    text-align: start;
+  } */
+  .forsidakassar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    line-height: 0.4;
+    margin: 20px;
+  }
+  .fyrsta {
+    display: flex;
+    gap: 20px;
+  }
+  .textifyrsta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    line-height: 0;
+    margin-bottom: 30px;
+  }
+  .textiforsida {
+    margin: 20px;
+  }
+
+  /* OM MIG */
+
+  /* VERKEFNA SIDUR */
+  .slideshow img {
+    max-width: 50%;
+    max-height: 80%;
+    margin: 10px;
+    padding: 10px;
+    object-fit: cover;
+    scroll-snap-align: start;
+  }
+  .slideshow {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .slideshow {
+    display: flex;
+  }
+  .slideshow {
+    position: relative;
+    scroll-snap-type: x mandatory;
+  }
+  .tilhlidar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+  }
+  .uppi2 {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+  }
+  .uppi3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+  }
+  .myndirlofi {
+    display: flex;
+    margin-left: 35px;
+    gap: 15px;
+  }
+  .myynd6 {
+    margin-left: 700px;
+  }
+  .elemynd {
+    margin-left: 800px;
+  }
+  .uppitexti {
+    margin-right: 710px;
+  }
+}
+/* MYNDIR HREYFAST */
+
+.hreyfimyndir {
+  width: 89rem;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.myndirh {
+  display: flex;
+  animation: markee-animation 3s linear infinite;
+}
+.myndirh {
+  width: 336px;
+  flex-shrink: 0;
+}
+
+@keyframes markee-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

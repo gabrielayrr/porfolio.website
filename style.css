@@ -1,0 +1,149 @@
+/* SETJA MOBILE STÆRÐ AF LOGO NAFNINU HER FYRUR NEÐAN */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ad004e;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #ad004e;
+}
+/* FONTSTYLES */
+h1,
+h2,
+h3,
+p,
+h4 {
+  color: #ad004e;
+}
+h3,
+h2,
+h4 {
+  font-family: "Source Serif 4", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.menni {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* VERKEFNA SÍDUR */
+.uppi {
+  border-bottom: 2px solid #ad004e;
+}
+/* FORSIDA */
+
+@media screen and (min-width: 600px) {
+  /* VERKEFNA SÍDUR */
+  .tilhlidar {
+    gap: 80px;
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+  .api {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    text-align: end;
+  }
+  .uppi {
+    margin-left: 20px;
+  }
+  .uppi4 {
+    display: flex;
+    align-items: baseline;
+  }
+  .uppitexti {
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+  .verknofn {
+    font-size: 53px;
+  }
+  .hjemme {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+  }
+  /* OM MIG */
+  .nafn {
+    display: flex;
+    align-items: baseline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 2px;
+    font-size: 53px;
+    padding-left: 15px;
+    margin-bottom: -52px;
+  }
+}
+.paddi {
+  padding-left: 15px;
+}
+.textiommig {
+  line-height: 1.5;
+  margin-right: 45px;
+}
+/* FORSIDA */
+.eeg {
+  width: 397px;
+  height: 557px;
+  margin-left: 20px;
+}
+.portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.textiforsida {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.nafnfor {
+  font-size: 35px;
+}
+.mynd111 {
+  margin-left: 338px;
+}
+.stafur1::first-letter {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+.proto {
+  margin-left: 650px;
+  display: flex;
+  gap: 45px;
+}
+
+/* MENU */
+
+.logoista {
+  font-family: "Mea Culpa", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37px;
+  margin-top: 20px;
+  width: 13%;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
